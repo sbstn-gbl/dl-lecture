@@ -1,0 +1,17 @@
+black
+grip
+isort
+jupyterlab
+jupyterlab-vim
+jupyterlab-code-formatter
+matplotlib
+numpy
+pandas
+pyarrow
+PyYAML
+scipy
+seaborn
+sklearn
+tensorboard
+tensorflow
+torch

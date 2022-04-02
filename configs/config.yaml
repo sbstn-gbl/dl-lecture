@@ -1,0 +1,22 @@
+seed: 1234
+trainer:
+    epochs: 1000
+model:
+    n_features: 2
+    layers: [20, 15, 10, 5]
+data:
+    N: 4000 
+    train:
+        batch_size: 512
+        shuffle: True
+        drop_last: True
+    valid:
+        batch_size: 1024
+        shuffle: False
+        drop_last: False
+    test:
+        batch_size: 1024
+        shuffle: False
+        drop_last: False
+optimizer:
+   lr: 0.01

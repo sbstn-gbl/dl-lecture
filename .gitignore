@@ -1,0 +1,52 @@
+# configs
+config*.json
+config*.yaml
+
+# latex
+*.aux
+*.toc
+*.lot
+*.bbl
+*.blg
+*.lof
+*.nav
+*.snm
+*.xmpi
+*.upa
+
+# data files
+*.csv
+*.csv.gz
+*.tar.gz
+*.parquet
+*.npy
+*.pkl
+*.pickle
+*.egg-info
+
+# image files
+*.png
+*.jpg
+*.pdf
+
+# output files
+*.html
+*.out
+
+# backup or swap files
+*.pyc
+*~
+*.swp
+*.bak
+
+# virtualenv folder
+env
+
+# jupyter
+.ipynb_checkpoints
+
+# pycharm .idea folder
+.idea
+
+# mac files
+.DS_Store
