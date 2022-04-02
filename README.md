@@ -1,4 +1,4 @@
-# GitHub Repository for Course "Learning from Big Data"
+# GitHub Repository for Deep Learning Lecture
 
 
 ## README content
@@ -13,6 +13,7 @@
 * [Lecture notebooks](#lecture-notebooks)
 
 <!-- vim-markdown-toc -->
+
 
 ## Repository content
 
@@ -78,7 +79,7 @@ If `make` does not work on your computer run the steps included in the [Makefile
 ## Lecture notebooks
 
 - [Notebook 1: Gradient Descent](notebooks/1-gradient-descent.ipynb)
-- [Notebook 2: Backpropagation](notebooks/2-back-propagation.ipynb)
+- [Notebook 2: Backpropagation](notebooks/2-backpropagation.ipynb)
 - [Notebook 3: Spiral ](notebooks/3-spiral.ipynb)
 - [Notebook 4: Tensorboard](notebooks/4-tensorboard.ipynb)
 - [Notebook 5: Weight initialization](notebooks/5-weight-initialization.ipynb)
