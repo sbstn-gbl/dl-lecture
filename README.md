@@ -8,8 +8,8 @@
 * [Repository content](#repository-content)
 * [Requirements](#requirements)
 * [Setup](#setup)
-  * [Makefile targets](#makefile-targets)
-  * [Step-by-step instructions](#step-by-step-instructions)
+	* [Makefile targets](#makefile-targets)
+	* [Step-by-step instructions](#step-by-step-instructions)
 * [Lecture notebooks](#lecture-notebooks)
 
 <!-- vim-markdown-toc -->
@@ -48,13 +48,14 @@ The [Makefile](./Makefile) included in this repository is purely for convenience
 ```
 $ make help
 Make targets:
-  build          create virtualenv and install packages
-  build-lab      `build` + lab extensions
-  freeze         persist installed packaged to requirements.txt
-  clean          remove *.pyc files and __pycache__ directory
-  distclean      remove virtual environment
-  run            run jupyter lab
-Check the Makefile for more details
+  build            install dependencies and prepare environment
+  clean            remove *.pyc files and __pycache__ directory
+  distclean        remove virtual environment
+  run              run jupyter lab
+  format           format python code (black and isort)
+  activate-vim     activate vim key bindings for jupyter
+  deactivate-vim   deactivate vim key bindings for jupyter
+Check the Makefile for details
 ```
 
 ### Step-by-step instructions
