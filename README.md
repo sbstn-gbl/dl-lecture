@@ -1,4 +1,6 @@
-# GitHub Repository for Deep Learning Lecture
+# GitHub Repository for Neural Network Lecture
+
+This repository contains the code for my neural learning/PyTorch lecture. See the [lecture notebooks](#lecture-notebooks) and [slides](./docs/slides.pdf) for the lecture content.
 
 
 ## README content
@@ -8,8 +10,8 @@
 * [Repository content](#repository-content)
 * [Requirements](#requirements)
 * [Setup](#setup)
-	* [Makefile targets](#makefile-targets)
-	* [Step-by-step instructions](#step-by-step-instructions)
+  * [Makefile targets](#makefile-targets)
+  * [Step-by-step instructions](#step-by-step-instructions)
 * [Lecture notebooks](#lecture-notebooks)
 
 <!-- vim-markdown-toc -->
